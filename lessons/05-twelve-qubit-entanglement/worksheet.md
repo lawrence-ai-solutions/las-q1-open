@@ -27,10 +27,10 @@ lights, twinkle = ghz(), ghz(sideways=True)
 |---|---|---|---|---|---|---|
 | All 12 in sync (all on or all off) | 100% | 75.1% | 77.3% | ibm_marrakesh | `dc31a72nj2vs73dhgo10` | data/18-twelve-qubit-ghz-christmas-lights |
 | Sideways parity | 1.00 | 0.61 | 0.52 | ibm_marrakesh | `dc31a72nj2vs73dhgo10` | data/18-twelve-qubit-ghz-christmas-lights |
-| Fidelity bound (above 0.5 = entangled) | 1.00 | 0.68 | 0.646 | ibm_marrakesh | `dc31a72nj2vs73dhgo10` | data/18-twelve-qubit-ghz-christmas-lights |
+| Fidelity bound F >= P_sync + (parity - 1)/2 (above 0.5 = entangled) | 1.00 | 0.555 | 0.533 | ibm_marrakesh | `dc31a72nj2vs73dhgo10` | data/18-twelve-qubit-ghz-christmas-lights |
 | 12 ordinary coins all match | 0.05% |  | 0.08% | ibm_marrakesh | `dc31a72nj2vs73dhgo10` | data/18-twelve-qubit-ghz-christmas-lights |
 
-Pre-registered; all three tests passed. All numbers come from the open dataset https://doi.org/10.5281/zenodo.24517586; see the Twin Check notebook to load and check them.
+Pre-registered. Correction (25 Nov 2026): the originally registered fidelity formula, (P_sync + parity)/2, is not a valid bound; the values above use the correct bound recomputed from the same saved data (0.533, still above 0.5, about 3.5 standard deviations). All numbers come from the open dataset https://doi.org/10.5281/zenodo.24517586; see the Twin Check notebook to load and check them.
 
 ## Questions
 1. For 12 ordinary coin flips, what is the chance that all 12 match?
@@ -45,7 +45,7 @@ Pre-registered; all three tests passed. All numbers come from the open dataset h
 
    ______________________________________________________________
 
-3. The real chip gave P_sync = 0.773 and parity = 0.519. Compute the fidelity bound. Is it entangled?
+3. The real chip gave P_sync = 0.773 and parity = 0.519. Compute the fidelity bound F >= P_sync + (parity - 1)/2. Is it entangled?
 
    ______________________________________________________________
 
