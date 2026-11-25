@@ -1,0 +1,6 @@
+pandas
+matplotlib
+jupyter
+# optional baseline:
+qiskit
+qiskit-aer
