@@ -12,8 +12,8 @@ the prediction saved **before** the run. Anyone can check the claims, and anyone
 | [`lessons/`](lessons/) | 3 open lessons (Bell test, teleportation, Grover search): teacher guide with answers + student worksheet | CC BY 4.0 |
 | [`notebooks/twin_check.ipynb`](notebooks/twin_check.ipynb) | Downloads the public datasets and compares 49 predictions with real-hardware measurements; verifies the pre-registration hashes; optional Qiskit Aer baseline | MIT |
 
-Run the notebook in Google Colab (no install): open `notebooks/twin_check.ipynb` on GitHub and choose "Open in Colab",
-or locally with `pip install -r requirements.txt` then `jupyter notebook`.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lawrence-ai-solutions/las-q1-open/blob/main/notebooks/twin_check.ipynb)
+Run the notebook in Google Colab with no install (button above), or locally with `pip install -r requirements.txt` then `jupyter notebook`.
 
 ## Data (permanent, citable)
 - Experiments dataset, 23 experiments, Nov 2026: https://doi.org/10.5281/zenodo.24517586
