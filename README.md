@@ -18,6 +18,7 @@ Run the notebook in Google Colab with no install (button above), or locally with
 ## Data (permanent, citable)
 - Experiments dataset, 23 experiments, Nov 2026: https://doi.org/10.5281/zenodo.24517586
 - Warp-drive analogue preprint and data: https://doi.org/10.5281/zenodo.24517295
+- Accuracy report (49 predictions vs real hardware): https://doi.org/10.5281/zenodo.24519423
 
 ## What is open and what is not
 Open: the lessons, the notebook, the predictions (as numbers), the measured results, the compiled circuits and the
