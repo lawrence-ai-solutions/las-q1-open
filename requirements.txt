@@ -1,6 +1,7 @@
 pandas
 matplotlib
 jupyter
-# optional baseline:
+# optional baseline and "test your own model" section:
 qiskit
 qiskit-aer
+qiskit-ibm-runtime

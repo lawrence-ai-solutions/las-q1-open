@@ -9,8 +9,8 @@ the prediction saved **before** the run. Anyone can check the claims, and anyone
 ## What's here
 | Folder | What it is | Licence |
 |---|---|---|
-| [`lessons/`](lessons/) | 3 open lessons (Bell test, teleportation, Grover search): teacher guide with answers + student worksheet | CC BY 4.0 |
-| [`notebooks/twin_check.ipynb`](notebooks/twin_check.ipynb) | Downloads the public datasets and compares 49 predictions with real-hardware measurements; verifies the pre-registration hashes; optional Qiskit Aer baseline | MIT |
+| [`lessons/`](lessons/) | 5 open lessons (Bell test, teleportation, Grover search, quantum Zeno effect, 12-qubit entanglement): teacher guide with answers + student worksheet | CC BY 4.0 |
+| [`notebooks/twin_check.ipynb`](notebooks/twin_check.ipynb) | Downloads the public datasets and compares 49 predictions with real-hardware measurements; verifies the pre-registration hashes; **test your own noise model** on the same chip-compiled circuits (a standard Qiskit Aer model is included as the starting point) | MIT |
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lawrence-ai-solutions/las-q1-open/blob/main/notebooks/twin_check.ipynb)
 Run the notebook in Google Colab with no install (button above), or locally with `pip install -r requirements.txt` then `jupyter notebook`.
